@@ -161,7 +161,9 @@ public class JDlgSesion extends javax.swing.JDialog
                contraseña =jPasswordField1.getText();
               sql="select ClvUsuario,Usuario,Contraseña,Archivo,IniciarSesion,CerrarSesion,RegistroDeUsuario,SalirDeAplicacion,Clientes,RegistroDeClientes,Pagos,RegistroDePagos,EmisionesOrdenes,Reportes,ReporteDeIngresos,ReporteDePagos,ReporteDeOrdenes,Herramientas,Calculadora,RespaldarBd,RestaurarBd,Ayuda,MostrarAyuda,AcercaDe from tblusuario where Usuario='" + this.jTextField1.getText() + "' and Contraseña='" + contraseña + "'";
                rs= obj.consultar(sql);
+               System.out.println("asdadasd:   "+ rs);
                b=jTextField1.getText();
+               System.out.println("bbbbb:   "+ rs);
                //p=jTextField2.getText();
                p=contraseña;
                boolean encuentra=false;

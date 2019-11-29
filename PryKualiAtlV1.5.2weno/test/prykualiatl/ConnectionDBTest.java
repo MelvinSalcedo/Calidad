@@ -7,10 +7,11 @@ package prykualiatl;
 
 import javax.swing.table.DefaultTableModel;
 import junit.framework.TestCase;
+import org.junit.*;
 
 /**
  *
- * @author Orus
+ * @author jhunior
  */
 public class ConnectionDBTest extends TestCase {
     
@@ -36,7 +37,7 @@ public class ConnectionDBTest extends TestCase {
         ConnectionDB instance = new ConnectionDB();
         instance.doConnection();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -48,9 +49,9 @@ public class ConnectionDBTest extends TestCase {
         ConnectionDB instance = new ConnectionDB();
         DefaultTableModel expResult = null;
         DefaultTableModel result = instance.getModelBySqlCommand(SqlCmd);
-        assertEquals(expResult, result);
+        Assert.assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -62,9 +63,9 @@ public class ConnectionDBTest extends TestCase {
         ConnectionDB instance = new ConnectionDB();
         String expResult = "";
         String result = instance.getCellBySqlCommand(SqlCmd);
-        assertEquals(expResult, result);
+        Assert.assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -76,7 +77,7 @@ public class ConnectionDBTest extends TestCase {
         ConnectionDB instance = new ConnectionDB();
         instance.UpdateCommand(SqlCmd);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -87,7 +88,7 @@ public class ConnectionDBTest extends TestCase {
         ConnectionDB instance = new ConnectionDB();
         instance.CloseConnectionDB();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

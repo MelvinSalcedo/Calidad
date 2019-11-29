@@ -7,14 +7,14 @@ package prykualiatl;
 
 import javax.swing.JTextField;
 import junit.framework.TestCase;
-import org.junit.Assert;
+
 /**
  *
  * @author jhunior
  */
-public class JDlgPagosTest extends TestCase{
-    private JDlgPagos instance;
-    public JDlgPagosTest(String testName) {
+public class JDlgClientesTest extends TestCase {
+    
+    public JDlgClientesTest(String testName) {
         super(testName);
     }
     
@@ -29,51 +29,52 @@ public class JDlgPagosTest extends TestCase{
     }
 
     /**
-     * Test of muestra method, of class JDlgPagos.
+     * Test of muestra method, of class JDlgClientes.
      */
     public void testMuestra() {
         System.out.println("muestra");
-        JDlgPagos instance = new JDlgPagos(null,true);
+        JDlgClientes instance = new JDlgClientes(null, true);
         instance.muestra();
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        if (instance==null){
+            fail("The test case is a prototype.");
+        }
     }
 
     /**
-     * Test of main method, of class JDlgPagos.
+     * Test of main method, of class JDlgClientes.
      */
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        JDlgPagos.main(args);
+        JDlgClientes.main(args);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getJTxtBuscar method, of class JDlgPagos.
+     * Test of getJTxtBuscar method, of class JDlgClientes.
      */
     public void testGetJTxtBuscar() {
         System.out.println("getJTxtBuscar");
-        instance = new JDlgPagos(null,true);
-        JTextField expResult = instance.getJTxtBuscar();
+        JDlgClientes instance = new JDlgClientes(null, true);
+        JTextField expResult = null;
         JTextField result = instance.getJTxtBuscar();
-        System.out.println("aquiiii:   "+result);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
-     * Test of setJTxtBuscar method, of class JDlgPagos.
+     * Test of setJTxtBuscar method, of class JDlgClientes.
      */
     public void testSetJTxtBuscar() {
         System.out.println("setJTxtBuscar");
         JTextField JTxtBuscar = null;
-        JDlgPagos instance = new JDlgPagos(null,true);
+        JDlgClientes instance = new JDlgClientes(null, true);
         instance.setJTxtBuscar(JTxtBuscar);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        if (instance==null){
+            fail("The test case is a prototype.");
+        }
     }
     
 }
