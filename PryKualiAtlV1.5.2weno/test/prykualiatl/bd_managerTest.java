@@ -36,8 +36,6 @@ public class bd_managerTest extends TestCase {
         String Consulta = "";
         bd_manager instance = new bd_manager();
         instance.AbcProye(Consulta);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -50,10 +48,7 @@ public class bd_managerTest extends TestCase {
         String expResult = "";
         String result = instance.BuscaEva(sQl);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-
     /**
      * Test of consultar method, of class bd_manager.
      */
@@ -64,8 +59,5 @@ public class bd_managerTest extends TestCase {
         ResultSet expResult = null;
         ResultSet result = instance.consultar(sql);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-    
 }

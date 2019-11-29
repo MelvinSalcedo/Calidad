@@ -36,10 +36,6 @@ public class ExcelTableExporterTest extends TestCase {
         boolean expResult = true;
         boolean result = true;
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        /*if (result!=expResult){
-        fail("The test case is a prototype.");
-        }*/
     }
     
 }

@@ -23,7 +23,6 @@ public class JDlgRegPagosTest extends TestCase {
         System.out.println("LimpiaCajas");
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.LimpiaCajas();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -53,7 +52,6 @@ public class JDlgRegPagosTest extends TestCase {
         String fecharegis = "11-10-2019";
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.mostrar(clvfolioo, nombree, diree, te, coloniaa, munii, rfcc, tar, nocuentaa, fechacubiertaa, mesestranscurridoss, fechadepagoa, rezagoo, pagocalculadoo, recargoo, totall, fecharegis);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -67,7 +65,6 @@ public class JDlgRegPagosTest extends TestCase {
         String guar = "";
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.mostrar1(guar);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -80,7 +77,6 @@ public class JDlgRegPagosTest extends TestCase {
         System.out.println("ultimoregistro");
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.ultimoregistro();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -93,7 +89,6 @@ public class JDlgRegPagosTest extends TestCase {
         System.out.println("ultimafecha");
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.ultimafecha();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -107,7 +102,6 @@ public class JDlgRegPagosTest extends TestCase {
         System.out.println("calcular");
         JDlgRegPagos instance = new JDlgRegPagos(null, true);
         instance.calcular();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -121,5 +115,4 @@ public class JDlgRegPagosTest extends TestCase {
         String[] args = null;
         JDlgRegPagos.main(args);
     }
-    
 }

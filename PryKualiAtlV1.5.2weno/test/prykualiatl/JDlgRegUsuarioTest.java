@@ -58,7 +58,6 @@ public class JDlgRegUsuarioTest extends TestCase {
         boolean u = false;
         JDlgRegUsuario instance = new JDlgRegUsuario(null, true);
         instance.mostrar(cla, usu, contr, ara, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -70,10 +69,8 @@ public class JDlgRegUsuarioTest extends TestCase {
     public void testMostrar1() {
         System.out.println("mostrar1");
         String guar = "";
-        //JDlgRegUsuario instance = null;
         JDlgRegUsuario instance = new JDlgRegUsuario(null, true);
         instance.mostrar1(guar);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -84,10 +81,8 @@ public class JDlgRegUsuarioTest extends TestCase {
      */
     public void testUltimoregistro() {
         System.out.println("ultimoregistro");
-        //JDlgRegUsuario instance = null;
         JDlgRegUsuario instance = new JDlgRegUsuario(null, true);
         instance.ultimoregistro();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -99,12 +94,9 @@ public class JDlgRegUsuarioTest extends TestCase {
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        //JDlgRegUsuario.main(args);
         JDlgRegUsuario instance = new JDlgRegUsuario(null, true);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
-    }
-    
+    }    
 }

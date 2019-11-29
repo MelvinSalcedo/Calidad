@@ -13,7 +13,7 @@ public class ConnectionDB
     
     public void doConnection()
     {
-        System.out.println("ERROR aaaaDE CONEXIONaaaaaaaaaaaaaaaaaa:");
+        System.out.println("CONEXIÓN HECHA");
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
@@ -26,7 +26,7 @@ public class ConnectionDB
     // idernet jpa
     public DefaultTableModel getModelBySqlCommand(String SqlCmd)
     {
-        System.out.println("ERROR aaaaDE CONEXION:");
+        System.out.println("MODEL OBTENIDO");
         DefaultTableModel modelo = new DefaultTableModel();
         try
         {
@@ -57,7 +57,7 @@ public class ConnectionDB
 
     public String getCellBySqlCommand(String SqlCmd)
     {
-        System.out.println("ERROR aaaaDE CONEXION:");
+        System.out.println("CONEXION CON CELDAS");
         String CellValue = "";
         try{
             Statement sentencia = miCon.createStatement();

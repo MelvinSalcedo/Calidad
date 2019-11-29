@@ -3,6 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/bd_manager.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgPagos.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgRegPagos.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgPagosTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/ConnectionDB.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgClientes.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgSesion.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JFrmMdi.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgRegClienteTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgRegUsuario.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgRegOrdenesTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgUsuariosTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgTicket.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgClientesTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgRegPagosTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgRegUsuarioTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/src/prykualiatl/JDlgBackup.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgOrdenesTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/ConnectionDBTest.java</file>
+            <file>file:/C:/wamp64/www/Calidad/PryKualiAtlV1.5.2weno/test/prykualiatl/JDlgTicketTest.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -43,11 +43,9 @@ public class JDlgRegClienteTest extends TestCase {
         String codigopostal = "";
         String tarifa = "";
         String fechas = "";
-        //JDlgRegCliente instance = null;
         JDlgRegCliente instance = new JDlgRegCliente(null, true);
         instance.mostrar(cuenta, nombre, dato, telefono, rfc, colonia, comunidad, municipio, codigopostal, tarifa, fechas);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -61,8 +59,7 @@ public class JDlgRegClienteTest extends TestCase {
         //JDlgRegCliente instance = null;
         JDlgRegCliente instance = new JDlgRegCliente(null, true);
         instance.mostrar1(guar);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -74,8 +71,7 @@ public class JDlgRegClienteTest extends TestCase {
         System.out.println("LimpiaCajas");
         JDlgRegCliente instance = new JDlgRegCliente(null, true);
         instance.LimpiaCajas();
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -88,8 +84,7 @@ public class JDlgRegClienteTest extends TestCase {
         //JDlgRegCliente instance = null;
         JDlgRegCliente instance = new JDlgRegCliente(null, true);
         instance.ultimoregistro();
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -102,10 +97,8 @@ public class JDlgRegClienteTest extends TestCase {
         String[] args = null;
         JDlgRegCliente instance = new JDlgRegCliente(null, true);
         JDlgRegCliente.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
-    
 }

@@ -36,27 +36,17 @@ public class ConnectionDBTest extends TestCase {
         System.out.println("doConnection");
         ConnectionDB instance = new ConnectionDB();
         instance.doConnection();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of getModelBySqlCommand method, of class ConnectionDB.
-     */
+    
     public void testGetModelBySqlCommand() {
         System.out.println("getModelBySqlCommand");
         String SqlCmd = "";
         ConnectionDB instance = new ConnectionDB();
         DefaultTableModel expResult = null;
         DefaultTableModel result = instance.getModelBySqlCommand(SqlCmd);
-        Assert.assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        assertEquals(expResult, result);
     }
 
-    /**
-     * Test of getCellBySqlCommand method, of class ConnectionDB.
-     */
     public void testGetCellBySqlCommand() {
         System.out.println("getCellBySqlCommand");
         String SqlCmd = "";
@@ -64,8 +54,6 @@ public class ConnectionDBTest extends TestCase {
         String expResult = "";
         String result = instance.getCellBySqlCommand(SqlCmd);
         Assert.assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -76,8 +64,6 @@ public class ConnectionDBTest extends TestCase {
         String SqlCmd = "";
         ConnectionDB instance = new ConnectionDB();
         instance.UpdateCommand(SqlCmd);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -87,8 +73,6 @@ public class ConnectionDBTest extends TestCase {
         System.out.println("CloseConnectionDB");
         ConnectionDB instance = new ConnectionDB();
         instance.CloseConnectionDB();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
 }

@@ -35,8 +35,6 @@ public class JDlgUsuariosTest extends TestCase {
         System.out.println("muestra");
         JDlgUsuarios instance = new JDlgUsuarios(null, true);
         instance.muestra();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -49,8 +47,6 @@ public class JDlgUsuariosTest extends TestCase {
         JTextField expResult = instance.getJTxtBuscar();
         JTextField result =instance.getJTxtBuscar();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -61,8 +57,6 @@ public class JDlgUsuariosTest extends TestCase {
         JTextField JTxtBuscar = null;
         JDlgUsuarios instance = new JDlgUsuarios(null, true);
         instance.setJTxtBuscar(JTxtBuscar);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
     
 }

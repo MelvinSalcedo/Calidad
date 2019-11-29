@@ -35,10 +35,6 @@ public class JDlgClientesTest extends TestCase {
         System.out.println("muestra");
         JDlgClientes instance = new JDlgClientes(null, true);
         instance.muestra();
-        // TODO review the generated test code and remove the default call to fail.
-        if (instance==null){
-            fail("The test case is a prototype.");
-        }
     }
 
     /**
@@ -48,7 +44,6 @@ public class JDlgClientesTest extends TestCase {
         System.out.println("main");
         String[] args = null;
         JDlgClientes.main(args);
-        // TODO review the generated test code and remove the default call to fail.
     }
 
     /**
@@ -60,21 +55,17 @@ public class JDlgClientesTest extends TestCase {
         JTextField expResult = null;
         JTextField result = instance.getJTxtBuscar();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
     }
-
     /**
      * Test of setJTxtBuscar method, of class JDlgClientes.
-     */
+    */
     public void testSetJTxtBuscar() {
         System.out.println("setJTxtBuscar");
         JTextField JTxtBuscar = null;
         JDlgClientes instance = new JDlgClientes(null, true);
         instance.setJTxtBuscar(JTxtBuscar);
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
     }
-    
 }

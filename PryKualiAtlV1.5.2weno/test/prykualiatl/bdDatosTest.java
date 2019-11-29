@@ -34,8 +34,6 @@ public class bdDatosTest extends TestCase {
         System.out.println("Conectar");
         bdDatos instance = new bdDatos();
         instance.Conectar();
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -50,8 +48,5 @@ public class bdDatosTest extends TestCase {
         Object[][] result = null;//instance.Consultar(strSQL);
         
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
-    
+    }    
 }

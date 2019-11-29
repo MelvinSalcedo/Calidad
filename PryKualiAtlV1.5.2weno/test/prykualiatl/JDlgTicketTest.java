@@ -41,8 +41,6 @@ public class JDlgTicketTest extends TestCase {
         int expResult = 0;
         int result = instance.print(graphics, pageFormat, pageIndex);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -67,8 +65,5 @@ public class JDlgTicketTest extends TestCase {
         String total = "";
         JDlgTicket instance = new JDlgTicket(null, true);
         instance.mostrar(folio, cuenta, nombre, dir, colonia, municipio, tel, rfc, fechacub, fechaapag, mesestransc, rezago, recargo, sub, total);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
-
 }

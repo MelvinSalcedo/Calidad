@@ -35,7 +35,6 @@ public class JDlgOrdenesTest extends TestCase {
         System.out.println("muestra");
         JDlgOrdenes instance = new JDlgOrdenes(null, true);
         instance.muestra();
-        // TODO review the generated test code and remove the default call to fail.
         if (instance==null){
             fail("The test case is a prototype.");
         }
@@ -48,7 +47,6 @@ public class JDlgOrdenesTest extends TestCase {
         System.out.println("main");
         String[] args = null;
         JDlgOrdenes.main(args);
-        // TODO review the generated test code and remove the default call to fail.
     }
 
     /**
@@ -57,11 +55,9 @@ public class JDlgOrdenesTest extends TestCase {
     public void testGetJTxtBuscar() {
         System.out.println("getJTxtBuscar");
         JDlgOrdenes instance = null;
-        //JDlgOrdenes instance = new JDlgOrdenes(null, true);
         boolean expResult = true;
         boolean result = true;
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
         if (result!=expResult){
             fail("The test case is a prototype.");
         }
@@ -75,10 +71,8 @@ public class JDlgOrdenesTest extends TestCase {
         JTextField JTxtBuscar = null;
         JDlgOrdenes instance = new JDlgOrdenes(null, true);
         instance.setJTxtBuscar(JTxtBuscar);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
-    }
-    
+    }   
 }

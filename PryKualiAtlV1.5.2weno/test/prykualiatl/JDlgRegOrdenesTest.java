@@ -38,8 +38,7 @@ public class JDlgRegOrdenesTest extends TestCase {
         boolean c = false;
         JDlgRegOrdenes instance = new JDlgRegOrdenes(null, true);
         instance.ActivaBotones(cal, p, i, c);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -51,8 +50,7 @@ public class JDlgRegOrdenesTest extends TestCase {
         System.out.println("LimpiaCajas");
         JDlgRegOrdenes instance = new JDlgRegOrdenes(null, true);
         instance.LimpiaCajas();
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -76,8 +74,7 @@ public class JDlgRegOrdenesTest extends TestCase {
         String mot = "";
         JDlgRegOrdenes instance = new JDlgRegOrdenes(null, true);
         instance.mostrar(noordenn, fechaa, tipoo, inspectorr, nocuentaa, nombree, diree, coloniaa, munii, telee, rfcc, mot);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -90,8 +87,7 @@ public class JDlgRegOrdenesTest extends TestCase {
         String guar = "";
         JDlgRegOrdenes instance = new JDlgRegOrdenes(null, true);
         instance.mostrar1(guar);
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -103,8 +99,7 @@ public class JDlgRegOrdenesTest extends TestCase {
         System.out.println("ultimoregistro");
         JDlgRegOrdenes instance = new JDlgRegOrdenes(null, true);
         instance.ultimoregistro();
-        // TODO review the generated test code and remove the default call to fail.
-         if (instance==null){
+        if (instance==null){
             fail("The test case is a prototype.");
         }
     }
@@ -116,7 +111,5 @@ public class JDlgRegOrdenesTest extends TestCase {
         System.out.println("main");
         String[] args = null;
         JDlgRegOrdenes.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-    }
-    
+    }   
 }
